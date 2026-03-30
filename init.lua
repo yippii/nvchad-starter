@@ -35,3 +35,11 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+require("colorizer").setup()
+
+require("noice").setup()
+
+if vim.g.neovide then
+  vim.g.neovide_fullscreen = true
+end

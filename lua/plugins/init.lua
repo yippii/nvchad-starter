@@ -13,6 +13,10 @@ return {
     end,
   },
 
+  { "norcalli/nvim-colorizer.lua" },
+  { "folke/noice.nvim" },
+  { "MunifTanjim/nui.nvim" },
+  { "rcarriga/nvim-notify" },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
