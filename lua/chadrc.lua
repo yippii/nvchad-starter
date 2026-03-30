@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "aylin",
+  theme = "tundra",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -20,6 +20,14 @@ M.ui = {
     theme = "minimal",
     separator_style = "round",
   }
+}
+
+M.nvdash = {
+  load_on_startup = true,
+  header = {
+    "     Powered By  eovim    ",
+    "                            ",
+  },
 }
 
 return M

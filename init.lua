@@ -40,6 +40,12 @@ require("colorizer").setup()
 
 require("noice").setup()
 
+require("transparent").setup()
+
+require("notify").setup({
+  background_colour = "#000000",
+})
+
 if vim.g.neovide then
   vim.g.neovide_fullscreen = true
 end

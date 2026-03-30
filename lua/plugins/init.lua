@@ -15,6 +15,7 @@ return {
 
   { "norcalli/nvim-colorizer.lua" },
   { "folke/noice.nvim" },
+  { "xiyaowong/transparent.nvim" },
   { "MunifTanjim/nui.nvim" },
   { "rcarriga/nvim-notify" },
   -- test new blink
