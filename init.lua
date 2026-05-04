@@ -47,7 +47,7 @@ require("notify").setup({
 })
 
 if vim.g.neovide then
-  vim.g.neovide_fullscreen = true
-  vim.g.neovide_opacity = 0.9
-  vim.g.neovide_normal_opacity = 0.9
+  vim.g.neovide_opacity = 0.7
+  vim.g.neovide_normal_opacity = 0.7
+  vim.g.neovide_window_blurred = true
 end
