@@ -15,11 +15,15 @@ return {
 		end,
 	},
 
-	{ "norcalli/nvim-colorizer.lua" },
-	{ "folke/noice.nvim" },
-	{ "xiyaowong/transparent.nvim" },
-	{ "MunifTanjim/nui.nvim" },
-	{ "rcarriga/nvim-notify" },
+	{ "norcalli/nvim-colorizer.lua", lazy = false },
+	{ "folke/noice.nvim", lazy = false },
+	{ "xiyaowong/transparent.nvim", lazy = false },
+	{ "rcarriga/nvim-notify",
+		lazy = false,
+		config = function() require("notify").setup({
+			 background_colour = "#000000", })
+		end
+	},
 	{ "WhoIsSethDaniel/mason-tool-installer.nvim" },
 
 	{
